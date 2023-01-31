@@ -1,0 +1,123 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: aqua;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.head-nav-list-item {
+  margin-left: 2rem;
+}
+
+.button {
+  max-width: 150px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.main-header {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: lightseagreen;
+  margin: 0 auto;
+}
+
+.image-text-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-container {
+  margin: 25px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-para-container {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+/* Change scrollbar design */
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #8f54a0 #ffffff;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #61057a;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8f54a0;
+  border-radius: 10px;
+  border: 3px groove #1a1919;
+}
+.img-div {
+  display: flex;
+}
+
+.logo {
+  text-align: left;
+}
+
+.img1 {
+  height: 450px;
+  width: 960px;
+  background-color: grey;
+}
+
+.img2 {
+  height: 300px;
+  width: 375px;
+  background-color: grey;
+  margin: 25px;
+}
+
+.img3 {
+  height: 480px;
+  min-width: 480px;
+  background-color: grey;
+  margin: 25px;
+}
+
+.img4 {
+  height: 480px;
+  width: 480px;
+  background-color: grey;
+  margin: 25px;
+}
+
+.img5 {
+  height: 450px;
+  width: 960px;
+  background-color: grey;
+}
