@@ -65,7 +65,7 @@ body {
 
 * {
   scrollbar-width: auto;
-  scrollbar-color: #8f54a0 #ffffff;
+  scrollbar-color: #8f54a0 grey;
 }
 
 *::-webkit-scrollbar {
@@ -73,7 +73,7 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-  background: #61057a;
+  background: teal;
 }
 
 *::-webkit-scrollbar-thumb {
